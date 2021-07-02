@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/votes",
+      "lambdaFunction": "voteapifunction",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/votes"
+    }
+  ],
+  "resourceName": "voteapi",
+  "apiName": "voteapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "voteapifunction"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-octsppoc-dev-181301-authRole",
+    "unAuthRoleName": "amplify-octsppoc-dev-181301-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "voteapifunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

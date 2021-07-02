@@ -1,0 +1,39 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-octsppoc-dev-181301-authRole",
+      "UnauthRoleArn": "arn:aws:iam::268673632887:role/amplify-octsppoc-dev-181301-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::268673632887:role/amplify-octsppoc-dev-181301-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-octsppoc-dev-181301-deployment",
+      "UnauthRoleName": "amplify-octsppoc-dev-181301-unauthRole",
+      "StackName": "amplify-octsppoc-dev-181301",
+      "StackId": "arn:aws:cloudformation:us-east-2:268673632887:stack/amplify-octsppoc-dev-181301/e3ad49a0-dac1-11eb-a6ba-068aac37321e",
+      "AmplifyAppId": "d2jgrz0t3lyf0u"
+    },
+    "categories": {
+      "auth": {
+        "octsppoc05097ed4": {}
+      },
+      "function": {
+        "videoapifunction": {
+          "deploymentBucketName": "amplify-octsppoc-dev-181301-deployment",
+          "s3Key": "amplify-builds/videoapifunction-65784e59614f4a6e634b-build.zip"
+        },
+        "voteapifunction": {
+          "deploymentBucketName": "amplify-octsppoc-dev-181301-deployment",
+          "s3Key": "amplify-builds/voteapifunction-427130674853334a7657-build.zip"
+        }
+      },
+      "storage": {
+        "OctankSportsPOC": {
+          "tableName": "Octank-Sports-POC",
+          "region": "us-east-2",
+          "arn": "arn:aws:dynamodb:us-east-2:268673632887:table/Octank-Sports-POC",
+          "partitionKeyName": "guid",
+          "partitionKeyType": "S"
+        }
+      }
+    }
+  }
+}
