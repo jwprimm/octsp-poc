@@ -128,7 +128,7 @@ export default class Player extends Component {
                     <h1 key={this.state.videoTitle}>{ `${this.state.videoTitle}` }</h1>
                   </header>
                   <header className="App-header">
-                    <Poll question={pollQuestion} answers={pollAnswers} onVote={voteAnswer => this.handleVote(voteAnswer, pollAnswers)} customStyles={pollStyle} noStorage />
+                    <Poll question={pollQuestion} answers={pollAnswers} onVote={voteAnswer => this.handleVote(voteAnswer, pollAnswers)} customStyles={pollStyle} />
                   </header>
                 </div>
               <Footer />
